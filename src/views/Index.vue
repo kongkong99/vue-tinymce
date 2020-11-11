@@ -5,7 +5,7 @@
       <tinymce
         class="home-tinymce"
         ref="context"
-        :height="600"
+        :height="500"
         v-model="content"
       />
     </div>
@@ -39,12 +39,10 @@ export default {
 
 <style lang="scss" scoped>
 .home-wrapper {
-  height: 100vh;
   // background: #f2f2f2;
   padding-top: 50px;
   padding: 16px;
   display: flex;
-
 }
 
 .home-title {
@@ -52,7 +50,7 @@ export default {
 }
 
 .home-left {
-  width: 1000px;
+  width: 900px;
   margin-right: 20px;
 }
 
@@ -60,7 +58,5 @@ export default {
   flex: 1;
   flex-wrap: wrap;
   word-break: break-all;
-
-
 }
 </style>
